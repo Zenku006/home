@@ -1,62 +1,26 @@
-html{
+body{
     width: 100%;
     height: 100%;
+    background-color:yellowgreen;
 }
-body{
-    background-color: red;
-    margin: 0;
-    padding: 0;
+.snow{
+    width: 20%;
+    float: right;
 }
-header{
-    width: 100%;
-    height: 70px;
-    background-color: green;
-    border: 2px dotted black;
+.form1{
+    width: 300px;
+    border: 2px red solid;
+    margin: 10px;
 }
-ul{
-    list-style: none;
-    line-height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.form2{
+    width: 350px;
+    border: 2px blue dashed;
+    box-sizing: border-box;
+    margin: 10px;
 }
-button{
-    background-color: #fad750;
-    height: 29px;
-    border: 2px solid blue;
+.form3{
+    width: 350px;
+    border: 2px brown dotted;
+    box-sizing: border-box;
+    margin: 10px;
 }
-a{
-    text-decoration: none;
-    color: #4f006a;
-    font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: italic;
-}
-button:hover{
-    background-color: red;
-    border: 3px dashed black;
-}
-a:hover{
-    color: white;
-}
-li{
-    width: 19%;
-    display: inline-block;
-}
-img{
-    width: 70%;
-}
-
-.full-size:target{
-    opacity: 1;
-}
-.viev-container{
-    position:relative;
-}
-.full-size{
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-} 

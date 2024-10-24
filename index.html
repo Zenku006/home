@@ -3,68 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><button><a href="#">Головна сторінка</a></button></li>
-                <li><button><a href="./lesson3.5.html">Про нас</a></button></li>
-                <li><button><a href="#">Контакти</a></button></li>
-                <li><button><a href="#">Вхід</a></button></li>
-                <li><button><a href="#">Реєстрація</a></button></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="gallery">
-        <ul>
-            <li>
-                <a href="#slide-1">
-                    <img src="./img/image1.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-2"></a>
-                    <img src="./img/image2.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-3"></a>
-                    <img src="./img/image3.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-4"></a>
-                    <img src="./img/image4.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-5"></a>
-                    <img src="./img/image5.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-6"></a>
-                    <img src="./img/image6.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#slide-7"></a>
-                    <img src="./img/image7.jpg" alt="">
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="view-container">
-        <img src="./img/image1.jpg" alt="img" class="full-size" id="slide-1">
-        <img src="./img/image2.jpg" alt="img" class="full-size" id="slide-2">
-        <img src="./img/image3.jpg" alt="img" class="full-size" id="slide-3">
-        <img src="./img/image4.jpg" alt="img" class="full-size" id="slide-4">
-        <img src="./img/image5.jpg" alt="img" class="full-size" id="slide-5">
-        <img src="./img/image6.jpg" alt="img" class="full-size" id="slide-6">
-        <img src="./img/image7.jpg" alt="img" class="full-size" id="slide-7">
-    </div>
+   <img src="./img/snow.jpg" alt="Christmas forest" class="snow">
+   <p>
+    Jingle Bells<br>
+    by James Lord Pierpont<br>
+    <br>
+    Dashing through the snow<br>
+    In a one-horse open sleigh,<br>
+    Over the fields we go,<br>
+    Laughing all the way;<br>
+    The bells on bob-tail ring,<br>
+    They make our spirits bright,<br>
+    What fun it is to ride and sing<br>
+    A sleighing song tonight, O<br>
+    <br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+    <br>
+    A day or two ago,<br>
+    I thought I’d take a ride,<br>
+    And soon Miss Fanny Bright<br>
+    Was seated by my side;<br>
+    The horse was lean and lank;<br>
+    Misfortune seemed his lot;<br>
+    He got into a drifted bank,<br>
+    And we, we got upset. O<br>
+    <br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+    <br>
+    Now the ground is white<br>
+    So go it while you’re young,<br>
+    Take the girls tonight<br>
+    And sing this sleighing song;<br>
+    Just get a bob-tailed nag<br>
+    Two-forty for his speed<br>
+    Then hitch him to an open sleigh<br>
+    And crack! you’ll take the lead, O<br>
+    <br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+    Jingle bells, jingle bells,<br>
+    Jingle all the way!<br>
+    O what fun it is to ride<br>
+    In a one-horse open sleigh<br>
+   </p>
+   <div class="form1">
+    <form action="http://url.com" method="post">
+        <label for="user-name">Ім'я:</label>
+        <input type="text" name="name" id="user-name"><br>
+        <label for="user-email">Електронна адреса:</label>
+        <input type="email" name="email" id="user-email"> <br>
+        <input type="image" name="image"> <br>
+        <input type="submit">
+    </form>
+   </div>
+   <div class="form2">
+    <form action="http://url.com" method="put">
+        <label for="color">Вибір коліру:</label>
+        <input type="color" name="color" id="color"> <br>
+        <label for="scale">Шкала:</label>
+        <input type="range" min="1" max="10" name="range" id="scale"> <br>
+        <input type="button" name="button"> <br>
+        <label for="datetime">Для вводу дати та часу:</label>
+        <input type="datetime" name="datetime" id="datetime"> <br>
+        <input type="submit">
+    </form>
+   </div>
+   <div class="form3">
+    <form action="http://url.com" method="delete">
+        <label for="time">Для вводу часу:</label>
+        <input type="time" name="time" id="time"> <br>
+        <label for="date">Для вводу дати:</label>
+        <input type="date" name="date" id="date"> <br>
+        <label for="password">Для вводу паролю:</label>
+        <input type="password" name="password" id="password"> <br>
+        <label for="number">Для вводу чисел:</label>
+        <input type="number" name="number" id="number"> <br>
+        <input type="submit">
+    </form>
+   </div>
+   <script src="script.js"></script>
 </body>
 </html>
